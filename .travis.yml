@@ -33,6 +33,7 @@ before_install:
   - source venv/bin/activate
 
 install:
+  - pip install requests[security]
   - pip install -U pip
   - pip install -r requirements.txt
   - pip install .
